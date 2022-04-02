@@ -14,7 +14,7 @@ This section describes the path followed to solve the problem.
 
 ### Step by Step
 
-1. First step was finding out a way to store the values for compensation. A Dictionary was the structure chosen, because of the ease of access. In order to summarize, the compensation was divided into **'WEEKDAY'**, for Monday to Friday, and **'WEEKEND'** for Saturday and Sunday.
+1. First step was finding out a way to store the values for compensation. A Dictionary was the structure chosen, because of the ease of access. In order to summarize, the compensation was divided into **'WEEKDAY'**, for Monday through Friday, and **'WEEKEND'** for Saturday and Sunday. Each value is another dictionary, that includes the first hour of the intervals (**'00', '09', ''18**) and the value corresponds to the dollars that need to be paid for that interval.
 
 ### Testing
 
