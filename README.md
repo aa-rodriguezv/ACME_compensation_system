@@ -38,7 +38,7 @@ Throughout the process the code was tested via print statements in the command l
 - The program was designed to be resilient enough to process any file that the user needs, or it can test an already defined .txt file.
 - The program was designed to be resilient enough to process time differences that can be fractions, taking into account the minutes of the hours in the intervals.
 - The testing was focused on the API as it is the code that solves the main problem. 
-- Every auxiliar function of the API was set to be private (with the \_function() notation) so that the file processor would not access unnecessary methods. 
+- Every auxiliar function of the API was set to be private (with the \_function() notation) so that the file processor would not access methods unnecessarily. 
 
 ## Results
 
