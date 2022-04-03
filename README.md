@@ -43,7 +43,7 @@ Throughout the process the code was tested via print statements in the command l
 ## Results
 
 ### Complexity
-If the limit of registers for each worker is limited to 7 (one for each day of the week) the complexity will be reduced to **O(7\*W)** or, as the O notation states for constant numbers **O(W)**, where **W** stands for the number of Workers in the file. But if the number of registers for each worker is dynamic the complexity changes to **O(N\*W)** where **N** is that number of registers. 
+If the limit of registers for each worker is limited to 7 (one for each day of the week) the complexity will be reduced to **O(7\*W)** or, as the O notation states for constant numbers: **O(W)**, where **W** stands for the number of Workers in the file. But if the number of registers for each worker is dynamic the complexity changes to **O(N\*W)** where **N** is that number of registers. 
 
 ### Known Limitations
 One case for where the program fails is when the interval registry involves multiple timeframes. However, a way that this can be achieved is by checking if both hours (the start hour and the finishing hour) belong to the same timeframe, if not, they can be split into single timeframes. 
