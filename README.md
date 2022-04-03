@@ -24,7 +24,7 @@ The [hourly_compensation_API.py](API) focuses on the core processing to solve th
 4. Lastly, the total compensation for each worker needs to be calculated. First, the line is split by an equal sign, to find out the name. After that it is just a loop, the data is split by commas, to sum every compensation for each interval registry. The return is a text with the name and the total sum of the compensation for that worker.
 
 #### Processing the File
-The [txt_processor.py](File Processor) is the final point of access for the user to solve the problem based on a file that can be either passed as a parameter or they can use the [test.txt](test) file that comes with the repo. This program focuses on processing the file and uses the API to process each line in the file.
+The [txt_processor.py](Processor) is the final point of access for the user to solve the problem based on a file that can be either passed as a parameter or they can use the [test.txt](test) file that comes with the repo. This program focuses on processing the file and uses the API to process each line in the file.
 
 1. The processor determines if there were any other arguments added for the execution, if so, it processes the file passed as an argument, if not it uses the default file.
 2. It reads the file and splits the data by new lines.
